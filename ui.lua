@@ -183,6 +183,7 @@ function initLibrary()
 
 
     local gui = utility.create("ScreenGui")
+    gui.Name = "YunUI"
     if (coreGui:FindFirstChild("YunUI")) then
         coreGui.YunUI:Destroy()
     end
