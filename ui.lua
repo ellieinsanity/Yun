@@ -3,6 +3,7 @@ Yun Founders: flash#9999, loris#9547, worldwide#0001 , Saul Goodman#2345
 Yun Devs: zomb#7741, nives#0001, loot#1337
 Special Thanks To: Qw#1549
 --]]
+local signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/ellieinsanity/skk/refs/heads/main/signal.lua"))()
 function initLibrary()
     local folderName = "epic config folder"
 
@@ -161,7 +162,7 @@ function initLibrary()
         color = Color3.fromRGB(255, 0, 0),
         keybind = Enum.KeyCode.RightShift, 
         dagSpeed = 0.1,
-        signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/ellieinsanity/skk/refs/heads/main/signal.lua"))()
+        signal = signal,
     }    
 
 
@@ -3645,3 +3646,4 @@ function initLibrary()
 
     return library
 end
+return signal
