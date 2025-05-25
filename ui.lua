@@ -160,7 +160,7 @@ function initLibrary()
         toggled = true,
         color = Color3.fromRGB(255, 0, 0),
         keybind = Enum.KeyCode.RightShift, 
-        dagSpeed = 0.1
+        dagSpeed = 0.1,
         signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/ellieinsanity/skk/refs/heads/main/signal.lua"))()
     }    
 
